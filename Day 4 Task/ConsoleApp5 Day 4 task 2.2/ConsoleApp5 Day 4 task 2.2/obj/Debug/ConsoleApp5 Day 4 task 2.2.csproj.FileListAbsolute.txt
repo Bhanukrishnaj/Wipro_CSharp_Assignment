@@ -1,0 +1,7 @@
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\bin\Debug\ConsoleApp5 Day 4 task 2.2.exe.config
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\bin\Debug\ConsoleApp5 Day 4 task 2.2.exe
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\bin\Debug\ConsoleApp5 Day 4 task 2.2.pdb
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\obj\Debug\ConsoleApp5 Day 4 task 2.2.csproj.AssemblyReference.cache
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\obj\Debug\ConsoleApp5 Day 4 task 2.2.csproj.CoreCompileInputs.cache
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\obj\Debug\ConsoleApp5 Day 4 task 2.2.exe
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 Day 4 task 2.2\ConsoleApp5 Day 4 task 2.2\obj\Debug\ConsoleApp5 Day 4 task 2.2.pdb

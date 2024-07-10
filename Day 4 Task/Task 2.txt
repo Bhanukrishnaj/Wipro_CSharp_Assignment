@@ -1,0 +1,199 @@
+
+1.  Write a c# program to convert number in characters. 
+
+	Input :  123
+	Output :  one two three 
+	
+	Input :  2024
+	Output :  two zero two four
+
+using System;
+
+namespace NumberToWords
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a number: ");
+            string input = Console.ReadLine();
+            string result = NumberToWords(input);
+            Console.WriteLine(result);
+        }
+
+        static string NumberToWords(string number)
+        {
+            string[] words = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            string result = "";
+
+            for (int i = 0; i < number.Length; i++)
+            {
+                char digit = number[i];
+                if (char.IsDigit(digit))
+                {
+                    result += words[digit - '0'] + " ";
+                }
+                else
+                {
+                    return "Invalid input.";
+                }
+            }
+
+            return result.Trim();
+        }
+    }
+}
+-------------------------------------------------------------------------------
+2.   Write a c# program to generate the following series using loops in c#:
+
+		 a.  1  4  9  16   25  36  49  64  81 100
+		 b.  0   1    1   2   3  5  8  13  21  34  55 89 144 
+		 c.   3   5   6   9    10  12  15  18  20  21 24  25  27  30
+
+using System;
+
+namespace SeriesGenerator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // a.  1  4  9  16   25  36  49  64  81 100
+
+            for (int j = 1; j <= 10; j++)
+            {
+                Console.Write("{0} ", j * j);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("\n------------------------------------");
+
+            // b.  0   1    1   2   3  5  8  13  21  34  55 89 144
+
+            int a = 0, b = 1, next, count = 0;
+
+            Console.Write("{0} {1} ", a, b);
+            count = 2;
+
+            while (count < 15)
+            {
+                next = a + b;
+                Console.Write("{0} ", next);
+                a = b;
+                b = next;
+                count++;
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("\n------------------------------------");
+
+            //c.   3   5   6   9    10  12  15  18  20  21 24  25  27  30
+
+
+            int i = 3;
+            do
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    Console.Write("{0} ", i);
+                }
+                i++;
+            } while (i <= 30);
+
+            Console.WriteLine();
+
+        }
+    }
+}
+------------------------------------------------------------------------------------------------
+		 
+3.   		Write a c# program to  implement the following requirement:
+
+			a.   Read some numbers from user  (around 20 numbers)
+			b.   Find out sum of all even numbers 
+			c.    Find out sum of odd numbers
+			d.    Finally display the results 
+			
+			Hint :  Use loops to implement the above requirement 
+using System;
+
+namespace SumEvenOddNumbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = new int[10];
+
+            int sumEven = 0;
+            int sumOdd = 0;
+            Console.WriteLine("Enter 10 numbers:");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Enter number {0}: ", i + 1);
+                numbers[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    sumEven += numbers[i];
+                }
+                else
+                {
+                    sumOdd += numbers[i];
+                }
+            }
+
+            Console.WriteLine("Sum of even numbers: " + sumEven);
+            Console.WriteLine("Sum of odd numbers: " + sumOdd);
+            Console.ReadLine();
+        }
+    }
+}
+------------------------------------------------------------------------
+
+			
+
+4.    	Write a c# program to  implement the following requirement:
+
+		a.   Read five product prices and corresponding quantities from user 
+		b.   Find out total amount for all produts 
+		c.    Finally display the total amount 
+			
+			Hint :  Use loops to implement the above requirement 
+
+
+using System;
+
+namespace ProductTotalAmount
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const int numberOfProducts = 5;
+            double totalAmount = 0;
+
+            double[] prices = new double[numberOfProducts];
+            int[] quantities = new int[numberOfProducts];
+
+            for (int i = 0; i < numberOfProducts; i++)
+            {
+                Console.Write("Enter price for product {0}: ", i + 1);
+                prices[i] = double.Parse(Console.ReadLine());
+
+                Console.Write("Enter quantity for product {0}: ", i + 1);
+                quantities[i] = int.Parse(Console.ReadLine());
+
+                totalAmount += prices[i] * quantities[i];
+            }
+
+            Console.WriteLine("Total amount for all products: " + totalAmount);
+
+            Console.ReadLine();
+        }
+    }
+}
+	

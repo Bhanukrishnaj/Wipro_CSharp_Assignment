@@ -1,0 +1,7 @@
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\bin\Debug\ConsoleApp5 day 4 string formate.exe.config
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\bin\Debug\ConsoleApp5 day 4 string formate.exe
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\bin\Debug\ConsoleApp5 day 4 string formate.pdb
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\obj\Debug\ConsoleApp5 day 4 string formate.csproj.AssemblyReference.cache
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\obj\Debug\ConsoleApp5 day 4 string formate.csproj.CoreCompileInputs.cache
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\obj\Debug\ConsoleApp5 day 4 string formate.exe
+C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\obj\Debug\ConsoleApp5 day 4 string formate.pdb

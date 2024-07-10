@@ -1,0 +1,5 @@
+﻿Build started at 11:41 AM...
+1>------ Build started: Project: ConsoleApp5 day 4 string formate, Configuration: Debug Any CPU ------
+1>  ConsoleApp5 day 4 string formate -> C:\Users\BHANU KRISHNA\OneDrive\Documents\ConsoleApp5 day 4 string formate\ConsoleApp5 day 4 string formate\bin\Debug\ConsoleApp5 day 4 string formate.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 11:41 AM and took 00.222 seconds ==========
